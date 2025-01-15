@@ -1,3 +1,9 @@
+@@media (max-width: 1300px) {
+  .search-bar {
+    width: 20rem;
+  }
+}
+
 @media (max-width: 768px) {
   .search-bar {
     width: 15rem;
