@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  .search-bar {
+    width: 15rem;
+  }
+
+  .search-bar input {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .mobile-nav {
+    display: flex;
+  }
+  .header .nav {
+    display: none;
+  }
+
+  .header {
+    justify-content: space-around;
+  }
+
+  .search-bar {
+    width: 10rem;
+  }
+
+  .categories {
+    overflow-x: auto;
+  }
+
+  .categories button {
+    padding: 0.5rem 0.7rem;
+    font-size: 0.5rem;
+  }
+}
