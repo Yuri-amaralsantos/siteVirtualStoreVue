@@ -3,5 +3,8 @@ import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [vue()],
-  base: "/siteVirtualStoreVue/",
+  base: "/", // Use '/' for the root or '/subpath/' for a subdirectory
+  build: {
+    outDir: "dist",
+  },
 });
